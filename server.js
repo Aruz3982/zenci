@@ -14,7 +14,6 @@ function degistir(sayfa) {
             }
           });
 }
-degistir('server2.html')
 function call(){
 const video = document.getElementById("vidto");
 video.volume = 0.2;
