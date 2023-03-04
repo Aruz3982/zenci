@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html id="content" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="girisana.css">
+</head>
+<body>
+    <p>giriş yapmak için lütfen şifre girin</p>
+    <input onkeyup="giriss(event)" id="inputt" type="text">
+    <div id="sol4" >
+        <div class="sol">
+            <button3 onclick="degistir('server2.html')">ana sayfa <br></button3>
+            <hr color="black" width="220px;">
+            <button4 onclick="degistir('basketciZenci.html')">null<br></button4>
+            <hr color="black" width="220px;">
+            <button5 onclick="degistir('oyun1.html')">oyun</button5>
+            <hr color="black" width="220px;">
+            <button6 onclick="degistir('oyun2.html')">oyun 2</button6>
+            <hr color="black" width="220px;">
+            <button7 onclick="degistir('arsiv.html')">arşiv</button7>
+        </div>
+        <div id="duvar"></div>
+        <button onclick="degistir('giris.html')" id="cik">çık</button>
+</div>
+<style>
+    p{position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;}
+    input{
+    font-size: x-large;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+</style>
+<script src="server.js"></script>
+</body>
+</html>

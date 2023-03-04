@@ -1,0 +1,33 @@
+body{
+    overflow: hidden;
+}
+#araba{
+    position: absolute;
+    height: 100px;
+    left: 15%;
+    top: 40%;
+}
+#karaekran{
+    position: absolute;
+    left: 0%;
+    top: -50px;
+    border: 1000px solid black;
+    z-index: 0;
+    fill: black;
+    opacity: 80%;
+}
+#arababasla{
+    background-color: transparent;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border-color: transparent;
+}
+#tıklayın{
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    font-size: 600%;
+    z-index: 2;
+}

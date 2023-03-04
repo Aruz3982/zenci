@@ -1,0 +1,94 @@
+.temper{
+    position: fixed;
+    border-left: 500px solid black;
+    border-top: 1px solid black;
+}
+#temper1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#temper2{
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.temper10{
+    rotate: 90deg;
+    position: fixed;
+    border-left: 500px solid black;
+    border-top: 2px solid black;
+}
+#temper3{
+    top: 70%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+#temper4{
+    top: 70%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
+.tus{
+    position: absolute;
+    background-color: transparent;
+    height: 140px;
+    width: 150px;
+    border-color: transparent;
+}
+#tus1{
+    top: 20%;
+    left: 37%;
+}
+#tus2{
+    top: 35%;
+    left: 37%;
+}
+#tus3{
+    top: 51%;
+    left: 37%;
+}
+#tus4{
+    top: 20%;
+    left: 45.5%;
+}
+#tus5{
+    top: 35%;
+    left: 45.5%;
+}
+#tus6{
+    top: 51%;
+    left: 45.5%;
+}
+#tus7{
+    top: 20%;
+    left: 54%;
+}
+#tus8{
+    top: 35%;
+    left: 54%;
+}
+#tus9{
+    top: 51%;
+    left: 54%;
+}
+.tik{
+    height: 110px;
+}
+#tekraroyna2{
+    height: 80px;
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    background-color: transparent;
+    font-size: x-large;
+}
+#kazanmamesaji{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    font-style: oblique;
+}
